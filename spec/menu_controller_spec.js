@@ -14,5 +14,9 @@ describe("MenuController", () => {
             this.menu.contacts.push("Bob");
             expect(this.menu.getContactCount()).toBe(1);
         });
+
+        it("should return a data value that is a string", () => {
+            expect(this.menu.remindMe()).toEqual("Learning is a life-long pursuit");
+        });
     });
 })
