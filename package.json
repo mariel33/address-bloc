@@ -4,11 +4,22 @@
   "description": "An application to model an address book in Node",
   "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[p.js)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=test && jasmine"
   },
   "author": "Mariel",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^5.1.0"
-  }
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariel33/address-bloc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariel33/address-bloc/issues"
+  },
+  "homepage": "https://github.com/mariel33/address-bloc#readme"
 }
